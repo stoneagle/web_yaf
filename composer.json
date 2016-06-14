@@ -1,0 +1,26 @@
+{
+	"name": "web_yaf_project",
+	"type": "project",
+	"keywords": ["yaf", "composer"],
+	"description": "web_yaf_project",
+	"require": {
+			//"illuminate/database" : "*",
+			//"smarty/smarty" : "~3.1",
+            //"predis/predis" : "*",
+            //"monolog/monolog" : "*",
+            //"rmccue/requests" : ">=1.0",
+            //"respect/validation" : "1.1.2",
+            //"pimple/pimple" : ">=3.0",
+            //"sebastian/diff" : "1.4.1",
+            //"guzzlehttp/guzzle" : "*",
+            //"pagerfanta/pagerfanta" : "*"
+	},
+	"config": {
+		"preferred-install": "dist",
+		"secure-http": false
+	},
+	"repositories": [
+		{"type": "composer", "url": "http://packagist.phpcomposer.com"},
+		{"packagist": false}
+	]
+}
